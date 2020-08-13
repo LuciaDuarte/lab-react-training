@@ -11,6 +11,8 @@ import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import FaceBook from './components/FaceBook';
+import SignupPage from './components/SignUp';
 
 function App() {
   return (
@@ -120,6 +122,9 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg',
         ]}
       />
+      <FaceBook />
+      <h1>SignUp</h1>
+      <SignupPage />
     </div>
   );
 }
